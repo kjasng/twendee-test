@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body class="w-full min-h-screen">
+    <div class="px-32 h-screen flex items-end flex-col gap-6">
+      <table class="border border-collapse w-full justify-center items-center">
+        <thead>
+          <th class="border text-2xl" id="fullname">Fullname</th>
+          <th class="border text-2xl" id="username">Username</th>
+          <th class="border text-2xl">Thumbnail Icon</th>
+        </thead>
+        <tbody id="tbody" class="text-center"></tbody>
+      </table>
+      <select
+        class="flex justify-end py-4 px-6 items-end outline-none border-2"
+        name=""
+        id="page"
+      >
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+    <script src="main.js"></script>
+    <script src="sorted.js"></script>
+  </body>
+</html>
